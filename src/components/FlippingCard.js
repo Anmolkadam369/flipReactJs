@@ -12,11 +12,11 @@ function FlippingCard() {
     'https://d1aeya7jd2fyco.cloudfront.net/home/Till_You_Complete_Your_Degree.svg';
 
   return (
-    <div className="container">
+    <div className="container" >
       <div className="left-side-text">
-        <h1 style={{ marginLeft: '30px' , fontSize: '50px'}}>
+        <h1 style={{ marginLeft: '50px' , fontSize: '50px'}}>
           What Makes<br/> Us Stand 
-          <span style={{ color: 'blue' }}>Apart</span>
+          <span style={{ color: 'blue' }}> Apart </span>
         </h1>
       </div>
 
@@ -26,8 +26,8 @@ function FlippingCard() {
           {/* First Card */}
           <div className="card">
             <div className="card-inner">
-              <div className="card-front">
-                <img src={cardImage1} alt="Image" className="top-left-image" />
+              <div className="card-front" style={{"border-left": "3px solid #0000FF"}}>
+                <img src={cardImage1} alt="card1" className="top-left-image" />
                 <p>
                   <b>5 Million +</b>
                   <br />
@@ -46,8 +46,8 @@ function FlippingCard() {
           {/* Second Card */}
           <div className="card">
             <div className="card-inner">
-              <div className="card-front">
-                <img src={cardImage2} alt="Image" className="top-left-image" />
+              <div className="card-front" style={{"border-left": "3px solid #2E8BC0"}}>
+                <img src={cardImage2} alt="card2" className="top-left-image" />
                 <p>
                   <b>100 Approved (only UGC - DAB)</b>
                   <br />
@@ -68,8 +68,8 @@ function FlippingCard() {
           {/* Third Card */}
           <div className="card">
             <div className="card-inner">
-              <div className="card-front">
-                <img src={cardImage3} alt="Image" className="top-left-image" />
+              <div className="card-front" style={{"border-left": "3px solid #24B3A8"}}>
+                <img src={cardImage3}  alt="card3" className="top-left-image" />
                 <p>
                   <b>Unbiased Experts</b>
                   <br />
@@ -86,8 +86,8 @@ function FlippingCard() {
           {/* Fourth Card */}
           <div className="card">
             <div className="card-inner">
-              <div className="card-front">
-                <img src={cardImage4} alt="Image" className="top-left-image" />
+              <div className="card-front" style={{"border-left": "3px solid orange"}}>
+                <img src={cardImage4} alt="card4" className="top-left-image" />
                 <p>
                   <b>Complete assistance</b>
                   <br />
