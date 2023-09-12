@@ -14,7 +14,7 @@ function FlippingCard() {
   return (
     <div className="container">
       <div className="left-side-text">
-        <h1>
+        <h1 style={{ marginLeft: '10px' }}>
           What Makes<br/> Us Stand 
           <span style={{ color: 'blue' }}>Apart</span>
         </h1>
