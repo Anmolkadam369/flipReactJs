@@ -34,7 +34,7 @@ function FlippingCard() {
                   <br />
                   Students Trust
                   <br />
-                  College vidya for unbiased counselling
+                  College vidya for unbiased counsellings
                 </p>
               </div>
               <div className="card-back">
